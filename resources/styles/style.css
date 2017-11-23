@@ -5,6 +5,15 @@ header {
   font-weight: bold;
 }
 
-.logo {
-    color: MediumAquamarine
+header h3 {
+  color: MediumAquamarine;
+  font-size: 14px;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  display: inline-flex;
 }
