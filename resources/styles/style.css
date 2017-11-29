@@ -1,6 +1,6 @@
-/* * {
-  border: 1px solid red;
-}*/
+div {
+  border: 1px solid black;
+}
 
 
 
@@ -13,12 +13,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between
-  /* margin-bottom: 15px;
-	border-bottom: 1px solid black;
-	width: 100%;
-	height: 80px;
-	position: fixed;
-	z-index: 1; */
 }
 
 nav {
@@ -29,7 +23,6 @@ nav a {
     color: black;
 }
 
-
 .logo {
   display: flex;
   align-items: center;
@@ -38,18 +31,23 @@ nav a {
   margin: 5px 0;
 }
 
-
 .logo img {
   margin-right: 12px;
 }
-
 
 .logo span {
   color: MediumAquamarine;
 }
 
-
 nav span {
   display: inline-block;
   padding: 20px 10px;
+}
+
+
+
+/* Main Section */
+
+main {
+  display: flex;
 }
