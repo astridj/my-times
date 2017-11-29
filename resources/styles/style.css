@@ -54,9 +54,13 @@ main {
 }
 
 .column {
-
+  display: flex;
 }
 
-.column-large {
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
 
 }
