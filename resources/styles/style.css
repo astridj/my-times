@@ -11,9 +11,13 @@ header {
   font-size: 14px;
   font-weight: bold;
   border-bottom: 1px solid black;
+  background-color: white;
   display: flex;
   align-items: center;
-  justify-content: space-between
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
 }
 
 nav {
@@ -50,13 +54,17 @@ nav span {
 /* Main Section */
 
 main {
-  align-items: center;
   display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+  width: 1232px;
+  z-index: 0;
 }
 
 .column {
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
 }
 
