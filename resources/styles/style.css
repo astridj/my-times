@@ -10,6 +10,7 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  border-bottom: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: space-between
@@ -28,7 +29,7 @@ nav a {
   align-items: center;
   flex-grow: 1;
   padding-left: 30px;
-  margin: 5px 0;
+  margin: 8px 0;
 }
 
 .logo img {
@@ -50,4 +51,12 @@ nav span {
 
 main {
   display: flex;
+}
+
+.column {
+
+}
+
+.column-large {
+
 }
