@@ -152,3 +152,20 @@ nav span {
   font-weight: lighter;
   padding: 12px 20px;
 }
+
+
+
+/* Footer Section */
+footer {
+  display: flex;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.footer-title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
