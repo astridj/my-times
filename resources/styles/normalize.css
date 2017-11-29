@@ -445,28 +445,3 @@ template {
 [hidden] {
   display: none;
 }
-
-* {
-  border: 1px solid black;
-}
-
-header {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-ul {
-  display: flex;
-}
-
-.logo span {
-  color: MediumAquamarine;
-}
-
-.nav span {
-  display: inline-block;
-}
