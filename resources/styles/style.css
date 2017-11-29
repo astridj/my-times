@@ -1,3 +1,7 @@
+div {
+  border: 1px solid black;
+}
+
 header {
   display: flex;
   font-family: Verdana;
@@ -6,6 +10,7 @@ header {
 }
 
 header h3 {
+  display: flex;
   color: MediumAquamarine;
   font-size: 14px;
 }
